@@ -1,0 +1,11 @@
+# Sorteo
+# vargas melina 
+import random
+original = [45, 12, 78, 3, 56]
+nueva = sorted(original)
+desc = sorted(original, reverse=True)
+ganador = random.choice(original)
+print("original:", original)
+print("Orden ascendente:", nueva)
+print("Orden descendente:", desc)
+print("Ganador Sorteo:", ganador)
